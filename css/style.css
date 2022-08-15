@@ -393,7 +393,7 @@ body {
 
 /* ================ WORKS================== */
 .works {
-	padding-bottom: 140px;
+	padding-top: 0;
 	text-align: center;
 }
 
@@ -574,6 +574,7 @@ body {
 	content: '';
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-size: contain;
 	height: 98px;
 	width: 98px;
 	margin-bottom: 5px;
