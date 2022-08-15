@@ -74,7 +74,14 @@
 	}
 
 	.header__link {
-		padding: 11px 0;
+		display: block;
+		padding: 8px 0;
+		width: 100%;
+	}
+
+	.header__link:active {
+		background: rgba(35, 82, 222);
+		opacity: 1;
 	}
 
 	.header__content {
@@ -153,11 +160,6 @@
 
 	/* ======= On click burger=============== */
 
-	.header__nav.menuOpen .header__link {
-		display: block;
-		padding: 8px 0;
-		width: 100%;
-	}
 
 	.header__nav.fixed {
 		padding: 10px 15px;
@@ -167,12 +169,7 @@
 		height: 66px;
 	}
 
-	.header__nav.menuOpen .header__link:active {
-		background: rgba(35, 82, 222);
-		opacity: 1;
-	}
-
-	.header__nav.menuOpen .header__list {
+	.header__list.menuOpen {
 		transform: translateY(0);
 	}
 

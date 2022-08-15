@@ -20,7 +20,7 @@ $(function () {
 
 /* Burger */
 const burgerIcon = document.querySelector(".menu__burger-btn");
-const burgerMenu = document.querySelector(".header__nav");
+const burgerMenu = document.querySelector(".header__list");
 const body = document.body;
 const headerLink = document.querySelector(".header__link");
 
